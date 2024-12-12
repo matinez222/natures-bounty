@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="check.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Nature's Bounty</h1>
+            <nav>
+                <a href="#">Home</a> / <a href="#" class="green">Checkout</a>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <section class="order-summary">
+                <h2>Order Summary</h2>
+                <div class="order-item">
+                    <img src="../4rd.png" alt="Organic Roundneck Shirt">
+                    <div class="details">
+                        <p class="details-1"><strong>Nature Wear Organic Roundneck <span>$115.00</span></strong></p>
+                        <p class="details-2">Color: Ocean Blue</p>
+                        <p class="details-3">Size: XL</p>
+                  
+                    </div>
+                </div>
+                <div class="order-item-1">
+                    <img src="../sofia  chair.png" alt="Organic Bamboo Chair">
+                    <div class="details">
+                        <p class="details-4"><strong>Organic Bamboo Chair <span>$2000.00</span></strong></p>
+                        <p class="details-5">Color: Earth</p>
+                        <p class="details-6">Size: Nil</p>
+                       
+                    </div>
+                </div>
+            </section>
+
+            <section class="payment-info">
+                <h2>Payment Information</h2>
+                <p> Pay with</p>
+                <form>
+                    <div class="small">
+                        <label>
+                            <input type="radio" name="payment" value="card" checked > Debit or Credit Card
+                        </label>
+                        <label><br>
+                            <input type="radio" name="payment" value="cod"> Pay on Delivery
+                        </label>
+                    </div>
+                    <div class="big-info">
+                        <p>Enter Card Information</p>
+                        <label for="card-name">Cardholder Name</label><br>
+                        <input type="text" id="card-name" placeholder="Cardholder Name">
+                    </div>
+                    <div class="big-info-1">
+                        <div class="buy">
+                        <label for="card-number">Card Number</label><br>
+                    </div>
+                        <input type="text" id="card-number" placeholder="1234 5678 9012 3456">
+                    </div>
+                    <div class="big-info-2">
+                        <div class="buy-1">
+                        <label for="expiry">Expiry Date  <label for="cvv" class="one">CVV</label></label><br>
+                    </div>
+                        <input type="text" id="expiry" placeholder="MM/YYYY">
+                        <input type="text" id="cvv" placeholder="123" class="cv-1">
+                    </div>
+                </form>
+                    <div class="sum">
+                    <p class="sub">Subtotal<span class="dollar">$2115.00</span></p>
+                    <p class="tax">Tax(10%)<span class="money">$54.00</span></p>
+                    <p class="ship">Shipping<span class="naira">$0.00</span></p>
+                    <p class="total"><strong>Total<span class="grandt">$2169.32</span></strong></p>
+                </div>
+                <button>Buy Now</button>
+            </section>
+        </main>
+    </div>
+
+    <section class="delivery-info">
+        <h2>Delivery Information</h2>
+        <form>
+            <div>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" placeholder="First Name">
+            </div>
+            <div>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" placeholder="Last Name">
+            </div>
+            <div>
+                <label for="address">Address</label>
+                <input type="text" id="address" placeholder="Address">
+            </div>
+            <div>
+                <label for="city">City/Town</label>
+                <input type="text" id="city" placeholder="City">
+            </div>
+            <div>
+                <label for="zip">Zip Code</label>
+                <input type="text" id="zip" placeholder="Zip Code">
+            </div>
+            <div>
+                <label for="mobile">Mobile Number</label>
+                <input type="text" id="mobile" placeholder="+1234567890">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
+

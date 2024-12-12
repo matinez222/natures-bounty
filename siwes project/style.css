@@ -1,0 +1,445 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+body{
+  background-color: #F9F2E1;
+  overflow-x: hidden;
+}
+
+
+.main{
+  width:100%;
+  /* height: auto;
+  background-color: lightsalmon; */
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:100%;
+  height:auto;
+}
+
+/* .icon{
+  width:200px;
+  float:left;
+  height:70px;
+} */
+
+.logo{
+  font-size: 25px;
+  padding-left: 50px;
+  float:left;
+  margin-top:27px;
+}
+/* 
+.menu{
+  width:400px;
+  float:left;
+  height: 70px;
+} */
+
+ul{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+ul li{
+  list-style-type: none;
+  margin-left: 52px;
+  margin-top: 27px;
+  font-size: 14px;
+ 
+}
+
+ul li a{
+  text-decoration: none;
+  font-family: "Krub", serif;
+  font-weight:500 ;
+  font-size: 14px; 
+}
+
+
+ul li a:hover{
+  color:gold;
+
+}
+
+.search{
+  width:330px;
+  float:left;
+  margin-right: 270px;
+ 
+}
+
+.btn{
+  width:70px;
+  height:28px;
+}
+
+.srch{
+  font-family: "Krub", serif;
+  width:250px;
+  height:30px;
+  border:1px solid lightpink;
+  margin-top: 27px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image{
+  padding-left: 10px;
+}
+
+.home{
+  background-color:lightgreen;
+  border: 1px solid lightgreen;
+  border-radius: 3px;
+}
+
+
+
+.award {
+  display: flex;
+ justify-content: center;
+ text-align: center;
+ margin-top: 77px;
+ background-color:#FFE6CE;
+ width:25%;
+ height: 13px;
+ margin-left: 500px;
+ border-radius: 5px;
+ 
+}
+
+.pic {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 27px;
+  gap:30px;
+  margin-right:120px;
+  cursor: pointer;
+  color:green;
+
+}
+
+.caption h1{
+  text-align: center;
+  margin-top: 27px;
+  font-size:44px ;
+  font-family: "Libre Bodoni", serif;
+  font-weight:500;
+  line-height: 53.6px;
+}
+
+.caption span{
+  color:green;
+}
+
+.caption p{
+  text-align: center;
+  margin-top: 27px;
+  font-size: 14px;
+  font-family: "Krub", serif;
+  font-weight:400;
+  line-height: 18.6px;
+}
+
+.but{
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+ 
+}
+
+.but button{
+  width:20%;
+  height: 50px;
+  background-color:#00522A;
+  border-radius: 8px;
+  color:white;
+  font-size:14px;
+  font-family: "Krub", serif;
+  font-weight:500;
+  line-height: 20.7px;
+  cursor: pointer;
+}
+
+
+
+.photo {
+  display: flex;
+  width:500px;
+  height:300px;
+  radius:30px;
+  gap:20px;
+  margin-top: 37px;
+}
+
+.product h3 {
+ text-align: center;
+ font-size:32px;
+ font-family: "Libre Bodoni", serif;
+ font-weight:500;
+ line-height: 36.8px;
+ margin-top: 27px;
+}
+
+.product p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Krub", serif;
+  font-weight: 400;
+  line-height: 18.4px;
+  margin-top: 12px;
+
+}
+
+.product-1 {
+  display: flex;
+  justify-content: center;
+  radius:10px;
+  gap:20px;
+  margin-top: 50px;
+
+}
+
+.product-1 p {
+  font-size: 18px;
+  font-family: "Krub", serif;
+  font-weight:400;
+  line-height: 23px;
+  color:#1D0E00;
+ 
+  
+}
+
+
+span{
+  padding-left: 28px;
+  color:#1D0E00;
+  font-weight: 800;
+  
+}
+
+
+
+.three,
+.four {
+  padding-left: 95px;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: "Krub", serif;
+  color:#1D0E00;
+  
+
+}
+
+.product-1 button{
+  display: block;
+  width: 280px;
+  height: 56px;
+  margin-top: 27px;
+  gap:12px;
+  background-color: #00522A;
+  border-radius:8px;
+  color:white;
+  font-size: 20px;
+  font-family: "Krub", serif;
+  font-weight: 500;
+  line-height: 20.7px;
+  cursor: pointer;
+}
+
+.product-1 button:hover{
+  color:gold;
+
+}
+
+#first{
+  position: relative;
+  top: 21.5px;
+}
+
+h4{
+  text-align: center;
+  font-size: 32px;
+  font-family: "Libre Bodoni", serif;
+  font-weight: 500;
+  line-height: 36.8px;
+  color:#1D0E00;
+  margin-top: 70px;
+}
+
+ .detail{
+  text-align: center;
+  font-size: 14px;
+  font-family: "Krub", serif;
+  font-weight: 400;
+  line-height: 18.4px;
+  color:#1C2320;
+  margin-top: 12px;
+}
+
+.quality-1 {
+  display: flex;
+  justify-content: center;
+  gap:50px;
+  margin-top: 28px;
+}
+
+.quality-1 p {
+  font-size: 18px;
+  font-family: "Krub", serif;
+  font-weight:500;
+  line-height: 23px;
+  color:#1D0E00;
+  margin-top: 12px;
+
+}
+
+.readymade-1 {
+  display: flex;
+  justify-content: center;
+  gap:50px;
+  margin-top: 30px;
+}
+
+.quality-1 p {
+  font-size: 18px;
+  font-family: "Krub", serif;
+  font-weight:500;
+  line-height: 23px;
+  color:#1D0E00;
+  margin-top: 12px;
+
+}
+
+.readymade-1 p{
+  font-family: "Krub", serif;
+  font-size: 18px;
+  font-weight:500;
+  line-height:23px;
+  color:#1D0E00;
+  margin-top: 12px;
+
+}
+
+.brand{
+  text-align: center;
+  font-size: 32px;
+  font-family: "Libre Bodoni", serif;
+  font-weight: 500;
+  color:#1D0E00;
+  line-height: 36.8px;
+  margin-top: 47px;
+}
+
+.child{
+  text-align: center;
+  font-size: 16px;
+  font-family: "Krub", serif;
+  font-weight: 400;
+  color:#1D0E00;
+  line-height: 18.4px;
+  margin-top: 10px;
+}
+
+.three,
+.four {
+  padding-left: 95px;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: "Krub", serif;
+  color:#1D0E00;
+}
+
+
+
+
+.header {
+  background-color:lightskyblue;
+  text-align: left;
+  padding: 50px; 
+  color: #172920;
+  margin-top: 160px;
+  height:270px;
+  width: auto;
+  padding-left:88px;
+  font-size: 12px;
+  line-height: 23px;
+  font-family: "Libre Bodoni", serif
+}
+
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  padding-top:50px;
+
+}
+
+.header p {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Krub", serif;
+  line-height: 18.2px;
+  color:#FFF;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.navigation ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  list-style: none;
+
+}
+
+.navigation li {
+  display:flex;
+  margin: 0 10px;
+  text-align: left;
+}
+
+.navigation a {
+  text-decoration: none;
+  color:#FFFFFF;
+  font-weight: bold;
+
+}
+
+.button{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  float: right;
+  margin-right: 70px;
+  bottom:167px;
+  gap:50px;
+
+  
+}
+
+.button {
+  border: 5px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 45px;
+  cursor: pointer;
+
+}
+

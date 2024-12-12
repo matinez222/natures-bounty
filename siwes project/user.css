@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+
+body {
+    background-color: #c2a175;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.transparent-logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 30%;
+    height: 300px;
+    background-image: transparent;
+    border-radius:600px 170px 50px 70px;
+   
+}
+
+
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Libre Bodoni", serif;
+    color: green;
+    margin-top: 20px;
+}
+
+.details {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: "Krub", serif;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.center-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.btn-1 {
+    background-color: green;
+    font-size: 20px;
+    font-family: "Libre Bodoni", serif;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+}
+
+.terms {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Krub", serif;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+
+.center-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.btn-2 {
+    background-color: blue;
+    font-size: 20px;
+    font-family: "Libre Bodoni", serif;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+    border: solid 1px transparent;
+}
+
+.fbook {
+    display: flex;
+    float: left;
+    margin-left: 15px;
+    height: 30px;
+    background-color: white;
+    color: blue;
+    width: 30px;
+
+}
+
+.support {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: "Krub", serif;
+    line-height: 22px;
+}
+
