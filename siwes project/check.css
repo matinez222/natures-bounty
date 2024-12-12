@@ -31,20 +31,22 @@ h2{
     background-color:#F9F2E1;
     padding: 20px;
     border-radius: 8px;
-   border:solid 1px brown;
-   height: 350px;
+    border:solid 1px brown;
+    height: 350px;
+    margin-left: 90px;
 }
 
 .order-summary {
     width: 50%;
-
 }
 
 .delivery-info{
     background-color:#F9F2E1;
     padding: 20px;
     border-radius: 8px;
-   border:solid 1px brown;
+    border:solid 1px brown;
+    margin-top: 70px;
+    padding-left: 20px;
 }
 
 .payment-info{
@@ -187,7 +189,9 @@ h2{
 
 .delivery-info {
     flex: 1;
-    
+    padding-right: 0px;
+    height: 80%;
+    width: 102%;
 }
 
 .delivery-info form {
@@ -203,7 +207,7 @@ h2{
 }
 
 .delivery-info input {
-    width: 95%;
+    width: 60%;
     padding: 12px;
     border: 1px solid #ddd;
     border-radius: 4px;
